@@ -1,0 +1,6 @@
+[ {
+  "text" : "collect production report",
+  "requiresMention" : true,
+  "isRegex" : false,
+  "caseSensitive" : false
+} ]

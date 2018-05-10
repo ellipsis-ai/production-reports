@@ -1,0 +1,81 @@
+[ {
+  "exportId" : "6P-TReolSheQwwybxSxCTg",
+  "name" : "channelForMembers",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "Which channel's members should be asked?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "N0JelvETTdyhUuyRC8brhw",
+  "name" : "url",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "What is the value for `url`?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "VvlyWKADS2CKo0wEb2HsUA",
+  "name" : "whenToPost",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "At what time on this day should the report be posted? (e.g. 9am)",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "XR7DunfAQDW5psiG267c9g",
+  "name" : "postChannel",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "In which channel should the report be posted?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "p5IIh5wyRKO6Gp-0S2sEbw",
+  "name" : "whenToAsk",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "At what time on this day should I ask? (e.g. 8am)",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "uBPrOM0uQWqKlk3jlnPMCA",
+  "name" : "report",
+  "paramType" : {
+    "exportId" : "File",
+    "name" : "File"
+  },
+  "question" : "Please paste or upload your report now.",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "ucHNIxMZStKJAo4dKC4y_Q",
+  "name" : "downloadUrl",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "What is the value for `downloadUrl`?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "vAr9NT79Sguq_Nas1_8xPA",
+  "name" : "dayOfWeek",
+  "paramType" : {
+    "exportId" : "U9OFIfweTBSDE9pl5xn2pA",
+    "name" : "DayOfWeek"
+  },
+  "question" : "On which day of the week should I ask them?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+} ]

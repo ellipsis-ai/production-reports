@@ -1,0 +1,8 @@
+{
+  "name" : "Production Reports",
+  "exportId" : "zMfMDBHeTjynYZY3azNL0g",
+  "icon" : "📊",
+  "requiredAWSConfigs" : [ ],
+  "requiredOAuth2ApiConfigs" : [ ],
+  "requiredSimpleTokenApis" : [ ]
+}

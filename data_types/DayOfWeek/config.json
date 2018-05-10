@@ -1,0 +1,10 @@
+{
+  "exportId" : "U9OFIfweTBSDE9pl5xn2pA",
+  "name" : "DayOfWeek",
+  "forcePrivateResponse" : false,
+  "isDataType" : true,
+  "dataTypeConfig" : {
+    "fields" : [ ],
+    "usesCode" : true
+  }
+}
