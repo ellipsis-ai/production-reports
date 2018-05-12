@@ -1,4 +1,4 @@
-function(channelForMembers, dayOfWeek, whenToAsk, postChannel, whenToPost, ellipsis) {
+function(channelForMembers, dayOfWeek, whenToAsk, postChannel, whenToPost, whenToRemind, ellipsis) {
   const EllipsisApi = require('ellipsis-api');
 const api = new EllipsisApi(ellipsis).actions;
 const slackUserId = ellipsis.userInfo.messageInfo.userId;
@@ -27,7 +27,8 @@ function setUpAction(action, newTimeOfDay, channel, useDM) {
   });
 }
 
-setUpAction("collect-report", whenToAsk, channelForMembers, true).
+setUpAction("entrypoint", whenToAsk, channelForMembers, true).
   then(() => setUpAction("post-report", whenToPost, postChannel, false), ellipsis.error).
+  then(() => setUpAction("reminder", whenToRemind, channelForMembers, true)).
   then(() => ellipsis.success("All done!"), ellipsis.error);
 }
