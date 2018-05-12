@@ -11,7 +11,7 @@ function unscheduleAction(actionName, channel) {
 }
 
 function scheduleAction(actionName, timeOfDay, channel, useDM) {
-  const recurrence = `every week on ${dayOfWeek} at ${timeOfDay}`;
+  const recurrence = `every week on ${dayOfWeek.id} at ${timeOfDay}`;
   return api.schedule({
     actionName: actionName,
     args: [{ name: "channel", value: channel }],
@@ -28,7 +28,7 @@ function setUpAction(action, newTimeOfDay, channel, useDM) {
 }
 
 setUpAction("entrypoint", whenToAsk, channelForMembers, true).
-  then(() => setUpAction("post-report", whenToPost, postChannel, false), ellipsis.error).
+  then(() => setUpAction("post-report", whenToPost, postChannel, false)).
   then(() => setUpAction("reminder", whenToRemind, channelForMembers, true)).
   then(() => ellipsis.success("All done!"), ellipsis.error);
 }
