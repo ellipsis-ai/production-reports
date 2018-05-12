@@ -25,7 +25,7 @@
     "exportId" : "Text",
     "name" : "Text"
   },
-  "question" : "At what time on this day should the report be posted? (e.g. 9am)",
+  "question" : "At what time on this day should the report be posted? (e.g. 6pm)",
   "isSavedForTeam" : false,
   "isSavedForUser" : false
 }, {
@@ -39,13 +39,23 @@
   "isSavedForTeam" : false,
   "isSavedForUser" : false
 }, {
+  "exportId" : "_R5tofzfQ9WOY4nZaCOmAQ",
+  "name" : "whenToRemind",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "At what time on this day should a reminder be sent if no report has been posted yet? (e.g. 3pm)",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
   "exportId" : "p5IIh5wyRKO6Gp-0S2sEbw",
   "name" : "whenToAsk",
   "paramType" : {
     "exportId" : "Text",
     "name" : "Text"
   },
-  "question" : "At what time on this day should I ask? (e.g. 8am)",
+  "question" : "At what time on this day should I ask? (e.g. 9am)",
   "isSavedForTeam" : false,
   "isSavedForUser" : false
 }, {
