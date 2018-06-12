@@ -1,7 +1,7 @@
 function(ellipsis) {
   const logs = require('logs')(ellipsis);
 
-logs.getMostRecentLog().then(mostRecent => {
+logs.getMostRecentLog(ellipsis.userInfo.ellipsisUserId).then(mostRecent => {
   if (mostRecent) {
     ellipsis.noResponse();
   } else {

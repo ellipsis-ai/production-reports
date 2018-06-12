@@ -1,0 +1,1 @@
+{successResult.count} log(s) collected.

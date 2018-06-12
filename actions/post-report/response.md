@@ -1,8 +1,10 @@
-{if successResult.hasUrl}
-Here is the latest production report from {successResult.slackUser}:
+{if successResult.hasResults}
+{for report in successResult}
+Here is the latest production report from {report.slackUser}:
 
-{successResult.url}
+{report.url}
 
+{endfor}
 {else}
-No production report has been collected today from {successResult.slackUser}.
+No reports posted today.
 {endif}
