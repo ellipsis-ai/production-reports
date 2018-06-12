@@ -2,5 +2,6 @@
   "exportId" : "spl_Y7jfRtK0BGAFbQEgtQ",
   "name" : "record-report-url",
   "forcePrivateResponse" : false,
+  "canBeMemoized" : false,
   "isDataType" : false
 }

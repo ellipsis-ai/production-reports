@@ -2,6 +2,7 @@
   "exportId" : "U9OFIfweTBSDE9pl5xn2pA",
   "name" : "DayOfWeek",
   "forcePrivateResponse" : false,
+  "canBeMemoized" : false,
   "isDataType" : true,
   "dataTypeConfig" : {
     "fields" : [ ],

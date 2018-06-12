@@ -2,5 +2,6 @@
   "exportId" : "qZD-5UGkSM2VZrzjzDS1sg",
   "name" : "reminder",
   "forcePrivateResponse" : false,
+  "canBeMemoized" : false,
   "isDataType" : false
 }

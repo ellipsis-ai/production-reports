@@ -2,5 +2,6 @@
   "exportId" : "Ohs10-JLReu6TP7VWQqy4A",
   "name" : "post-report",
   "forcePrivateResponse" : false,
+  "canBeMemoized" : false,
   "isDataType" : false
 }
